@@ -92,7 +92,7 @@ class PersianDate {
 
   PersianDate([String format]){
 
-    if(format.isNotEmpty || format != null)
+    if(format != null)
       _defualtVal = format;
 
     _getNow = _now();
